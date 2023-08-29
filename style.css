@@ -3,6 +3,9 @@ body {
   line-height: 1.8;
   color: #818181;
 }
+h1{
+  color: White;
+}
 h2 {
   font-size: 24px;
   text-transform: uppercase;
@@ -13,15 +16,28 @@ h2 {
 h4 {
   font-size: 19px;
   line-height: 1.375em;
-  color: #303030;
+  color: white;
   font-weight: 400;
   margin-bottom: 30px;
 }
+.border{
+  border-color: White;
+  border-style: double;
+  border-width: 20px;
+}
 .jumbotron {
-  background: linear-gradient(to top, #ff0066 0%, #ff99cc 100%);
+  background: linear-gradient(to top,black, white);
   color: #fff;
   padding: 100px 25px;
   font-family: Montserrat, sans-serif;
+}
+.left,h2{
+  background-color: black;
+  color: white;
+}
+.right{
+  background-color: white;
+  color: black;
 }
 .container-fluid {
   padding: 60px 50px;
@@ -49,7 +65,7 @@ h4 {
 }
 .carousel-control.right,
 .carousel-control.left {
-  background-image: none;
+  background-color: black;
   color: #cc6699;
 }
 .carousel-indicators li {
@@ -77,13 +93,13 @@ h4 {
   box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
 }
 .panel-footer .btn:hover {
-  border: 1px solid #cc6699;
+  border: 1px solid black;
   background-color: #fff !important;
   color: #cc6699;
 }
 .panel-heading {
   color: #fff !important;
-  background-color: #cc6699 !important;
+  background-color: rgb(52, 60, 61) !important;
   padding: 25px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 0px;
@@ -108,7 +124,7 @@ h4 {
 }
 .navbar {
   margin-bottom: 0;
-  background-color: #cc6699;
+  background-color: white;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -119,22 +135,23 @@ h4 {
 }
 .navbar li a,
 .navbar .navbar-brand {
-  color: #fff !important;
+  color:black !important;
+  font-weight: bold;
 }
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-  color: #000 !important;
-  background-color: #fff !important;
+  color:White !important;
+  background-color: black !important;
   font-weight: bold;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  color: #fff !important;
+  color: Black !important;
 }
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #cc6699;
+  color: black;
 }
 .slideanim {
   visibility: hidden;
@@ -174,15 +191,16 @@ footer .glyphicon {
 }
 
 .dropdown-menu {
-  background-color: #cc6699;
+  background-color: white;
+  color: black;
   }
   .dropdown-menu li.active a {
   color: #fff !important;
-  background-color:#cc6699 !important;
+  background-color:black !important;
   }
   .dropdown-menu li a:hover {
-  color: #fff !important;
-  background-color: #cc6699 !important;
+  color: white !important;
+  background-color: black !important;
   }
 
   h2:hover {
@@ -197,7 +215,7 @@ footer .glyphicon {
 }
 
 footer.container-fluid {
-  background-color: #cc6699;
+  background-color: black;
   color:white;
   text-align: center;
 }
